@@ -73,7 +73,7 @@ const config: HardhatUserConfig = {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
   dependencyCompiler: {
-    paths: ["circuits/zk/verifiers/Main.sol"],
+    paths: ["circuits/zk/verifiers/main.sol"],
   },
 };
 
